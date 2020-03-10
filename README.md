@@ -3,6 +3,7 @@
 ------------------------------------------------------------------------------------------------------
 1. feature/SpringSecurity_JWT Branch :   Added Authentication to application using JWT Tokens 
    Below Api used to register and authenticate the user :
+   
    a.  POST :  http://localhost:8081/register
        Body :  {
                 "username":"atul",
