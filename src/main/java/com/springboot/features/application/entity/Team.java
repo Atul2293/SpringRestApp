@@ -5,6 +5,7 @@ import javax.persistence.*;
 import java.util.List;
 
 @Entity
+@Table
 public class Team {
     @Id
     @GeneratedValue(strategy= GenerationType.SEQUENCE, generator = "team_Sequence")

@@ -3,6 +3,7 @@ package com.springboot.features.application.entity;
 import javax.persistence.*;
 
 @Entity
+@Table
 public class Player {
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "player_Sequence")

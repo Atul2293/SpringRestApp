@@ -1,0 +1,27 @@
+schema {
+    query: Query
+}
+
+type Query{
+    allTeam:[Team]
+    getTeamById(teamId : Int!):Team
+    allPlayers : [Player]
+    saveTeam(teamName : String!):Team
+}
+
+type Team {
+    id : Int
+    name : String
+    players : [Player]
+}
+
+type Player{
+    name : String
+    num : Int
+    position : String
+    team : Team
+}
+
+
+
+
